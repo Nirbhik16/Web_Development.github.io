@@ -1,0 +1,121 @@
+body{
+    margin:0;
+    padding:0;
+}
+.header{
+   position:relative;
+   text-align:center;
+   font-family: 'Roboto Slab', serif;
+   font-size: 36px;
+   color:white;
+}
+.header_image{
+    height:500px;
+    width:100%;
+    object-fit:cover;
+    z-index:1;
+    background-position: top;
+    background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(images/header.jpg);
+}
+.header_span{
+    color:black;
+}
+.p1{
+    width:780px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%)
+}
+.header_span{
+    font-weight: bold;
+}
+.profile{
+    font-family: 'Source Sans Pro' , sans-serif;
+    position:relative;
+    font-size:18px;
+    top:-60px;
+    text-align:center;
+    color:rgb(51,51,51);
+    line-height:24px;
+    margin:0;
+    padding:0;
+}
+.profile_image{
+    height:100px;
+border-radius: 100%;
+border-color: white;
+border-width:1px;
+z-index:4;
+}
+.profile_detail{
+    font-style: italic;
+}
+#profile-name{
+    font-weight: bold;
+    font-style: normal;
+}
+.profile-underline{
+    text-decoration:underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 2px;
+    text-decoration-color: #e6e6e6;
+}
+.wholebody{
+    width:66.7%;
+    margin-top:60px;
+    margin-left:16.65%;
+}
+.body_title{
+    font-family: 'Roboto Slab', serif;
+    font-size:36px;
+    font-weight: bold;
+    color:rgb(51,51,51);
+    margin-left:40px;
+}
+ol li::marker{
+    color:rgba(0, 0, 0, 0.25);
+    font-family: 'Roboto Slab', serif;
+    font-size:36px;
+}
+.address{
+    font-weight: normal;
+    font-size:small;
+    color:#42b4d6;
+    display:inline-block;
+    margin-top:0;
+    margin-bottom:20px;
+    margin-left: 40px;
+} 
+a:hover{
+    text-decoration: underline;
+}
+.body_para{
+    font-family: 'Source Sans Pro' , sans-serif;
+    font-size:18px;
+    line-height: 32px;
+    color:rgb(51,51,51);
+    margin-left:40px;
+    margin-bottom:20px;
+} 
+.body_rec{
+    font-family: 'Source Sans Pro' , sans-serif;
+    font-size:18px;
+    line-height: 32px;
+    color:rgb(51,51,51);
+    margin-left:40px;
+    text-align: justify;
+    margin-bottom:20px;
+}
+.body_rec_bold{
+    font-family: 'Source Sans Pro' , sans-serif;
+    font-size:18px;
+    font-weight: bold;
+    line-height: 32px;
+    color:rgb(51,51,51);
+}
+.body_images{
+    width:100%;
+    margin-left:40px;
+    margin-bottom:120px;
+}
